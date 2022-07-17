@@ -1,3 +1,5 @@
-module.exports = {
+
+
+exports = {
   greeting:'hello a.cjs'
 }

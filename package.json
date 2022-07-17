@@ -5,7 +5,6 @@
   "main": "src/index.js",
   "exports": {
     ".": {
-      "import": "./src/index.mjs",
       "require": "./src/index.cjs"
     },
     "./a": {
@@ -17,12 +16,12 @@
     "src/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@homy/test-entry": "^1.0.2"
+  "devDependencies": {
+    "vitest": "^0.18.1"
   }
 }

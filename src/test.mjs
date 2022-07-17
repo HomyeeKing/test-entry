@@ -1,2 +1,2 @@
-import * as pkg from '@homy/test-entry/a';
-console.log('pkg', pkg);
+import { greeting } from './a.cjs';
+console.log('greeting', greeting);
